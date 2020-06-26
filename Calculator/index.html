@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="calculator.png">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+</head>
+
+
+<body>
+    <input id="result" class="inputanswer" type="text">
+
+    <div class="main">
+
+        <div>
+     
+        <div class="backspace">
+
+
+            <div>
+
+            <div>
+                <button onclick="getNumber('7')" class="btnnns">7</button>
+                <button onclick="getNumber('8')" class="btnnns">8</button>
+                <button onclick="getNumber('9')" class="btnnns">9</button>
+                <button onclick="clearResult('')" class="btnnns"><i class="far fa-backspace"></i></button>
+            </div>
+
+            <div>
+                <button onclick="getNumber('4')" class="btnnns">4</button>
+                <button onclick="getNumber('5')" class="btnnns">5</button>
+                <button onclick="getNumber('6')" class="btnnns">6</button>
+                <button onclick="getNumber('*')" class="btnnns">x</button>
+            </div>
+
+            <div>
+                <button onclick="getNumber('1')" class="btnnns">1</button>
+                <button onclick="getNumber('2')" class="btnnns">2</button>
+                <button onclick="getNumber('3')" class="btnnns">3</button>
+                <button onclick="getNumber('-')" class="btnnns">-</button>
+            </div>
+
+            <div>
+                <button onclick="getNumber('0')" class="btnnns">0</button>
+                <button onclick="getResult()" class="btnnns">=</button>
+                <button onclick="getNumber('/')" class="btnnns">÷</button>
+                <button onclick="getNumber('+')" class="btnnns">+</button>
+            </div>
+        </div>
+
+        </div> 
+
+
+        </div>
+
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
